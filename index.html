@@ -1,3 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pure HTML5 / CSS3 Responsive Table Demo</title>
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  background-color:#fafafa;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top:150px;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .25em 0 .75em;
+}
+
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th, table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+table td img { text-align: center; }
+@media screen and (max-width: 600px) {
+
+table { border: 0; }
+
+table caption { font-size: 1.3em; }
+
+table thead { display: none; }
+
+table tr {
+  border-bottom: 3px solid #ddd;
+  display: block;
+  margin-bottom: .625em;
+}
+
+table td {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  font-size: .8em;
+  text-align: right;
+}
+
+table td:before {
+  content: attr(data-label);
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table td:last-child { border-bottom: 0; }
+}
+</style>
+</head>
+
+<body>
+<div id="css-script-menu">
+  <div class="css-script-center">
+    <ul>
+      <li><a href="http://www.cssscript.com/pure-html5-css3-responsive-table-solution/">Download</a></li>
+      <li><a href="http://www.cssscript.com/">Back To CSS Script</a></li>
+    </ul>
+    <div class="css-script-ads">
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* CSSScript Demo Page */
+google_ad_slot = "3025259193";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+      <script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+    <div class="css-script-clear"></div>
+  </div>
+</div>
+<table>
+  <caption>
+  Pure HTML5 / CSS3 Responsive Table Demo
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Account</th>
+      <th scope="col">Due Date</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Period</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row" data-label="Account">Visa - 3412</td>
+      <td data-label="Due Date">04/01/2016</td>
+      <td data-label="Amount">$1,190</td>
+      <td data-label="Period">03/01/2016 - 03/31/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Account">Visa - 6076</td>
+      <td data-label="Due Date">03/01/2016</td>
+      <td data-label="Amount">$2,443</td>
+      <td data-label="Period">02/01/2016 - 02/29/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Account">Corporate AMEX</td>
+      <td data-label="Due Date">03/01/2016</td>
+      <td data-label="Amount">$1,181</td>
+      <td data-label="Period">02/01/2016 - 02/29/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Acount">Visa - 3412</td>
+      <td data-label="Due Date">02/01/2016</td>
+      <td data-label="Amount">$842</td>
+      <td data-label="Period">01/01/2016 - 01/31/2016</td>
+    </tr>
+  </tbody>
+</table>
+
 <a href="Reveal/">Reveal</a>
 <a href="Rapid/">Rapid</a>
 <a href="NewBiz/">NewBiz</a>
@@ -8,3 +150,19 @@
 <a href="iPortfolio/">iPortfolio</a>
 <a href="iPortfolio5/">iPortfolio-bootstrap-5</a>
 <a href="Hidayah/">Hidayah</a>
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+</html>
+
+
+
